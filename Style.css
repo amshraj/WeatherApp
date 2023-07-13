@@ -1,0 +1,115 @@
+  body {
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.weath{
+ width: 400px;
+ background: linear-gradient( to right,  #35e500,   #2fc402);
+ background-size: cover;
+ 
+
+ text-align: center;
+ border-radius: 20px;
+ padding: 20px;
+ overflow: hidden;
+ box-shadow: -10px 10px 10px 2px #adadad,
+ 10px -10px 10px -2px #C6C9E9;
+}
+.input{
+ height: 100px;
+ width: 100%;
+}
+
+.weath input{
+  text-shadow: 1px 1px 2px silver ;
+
+ outline: none;
+ margin-right: 10px;
+ height: 35px;
+ width: 240px;
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px #adadad inset,
+ -5px -5px 5px #eee inset;
+ border: none;
+ margin-top: 30px;
+ font-weight: bolder;
+ color: #AC00FF;
+ font-size: x-large;
+ font-family: 'Courier New', Courier, monospace;
+}
+button{
+ width: 100px;
+ height: 29px;
+ border-radius: 20px;
+ background-color: orangered;
+ border: none;
+ box-shadow: 5px 5px 15px orange;
+
+}
+
+
+.temp{
+ height: 190px;
+ font-size: 60px;
+ font-weight: bolder;
+ color: wheat;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+margin-top: 30px;
+}
+
+
+#city{
+  margin-top:10px ;
+ font-weight: bold;
+ font-size: 40px;
+ color: purple;
+}
+
+
+
+
+
+
+
+.wind{
+ position: relative;
+  margin-top: 29%;
+
+ left: 80px;
+ font-style: italic;
+ font-size: larger;
+ font-weight: bolder;
+ color: purple;
+}
+img{
+ width: 55%;
+ height: 100%;
+ margin: auto 0;
+ 
+}
+
+.hum{
+  position: relative;
+margin-top:-20%;
+  left: -110px;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bolder;
+  color: purple;
+}
+#wind, #hum{
+ font-size: 40px;
+ color: #fff;
+ text-shadow: 1px 1px 2px silver ;
+}
+.dot{
+ display: block
+}
